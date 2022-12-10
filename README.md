@@ -9,7 +9,7 @@
 1. Download the latest package from the above link.
 2. Extract the contents of the zip
 3. Remove older versions of the mod from your server
-4. Make backup copies of your xml files before proceeding with installation. (mod will over write)
+4. Make backup copies of your xml files before proceeding with installation. (This mod will overwrite the xml files)
 5. Upload the contents of the zip file to the server route folder which is the same where art.zip resides. 
 6. Start the server
 7. Ensure you have 7zip installed on your computer [Download here](https://7zip.dev/en/download/)

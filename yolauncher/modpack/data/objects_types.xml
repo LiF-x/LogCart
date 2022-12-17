@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <table name="objects_types">
 	<row>
@@ -12,12 +12,12 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>0</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<MaxContSize isnull="true" />
+		<Length isnull="true" />
+		<MaxStackSize isnull="true" />
+		<UnitWeight isnull="true" />
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description>DO NOT TRANSLATE! Root type for other utility types</Description>
 	</row>
 	<row>
@@ -31,12 +31,12 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>0</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<MaxContSize isnull="true" />
+		<Length isnull="true" />
+		<MaxStackSize isnull="true" />
+		<UnitWeight isnull="true" />
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description>DO NOT TRANSLATE! Root type for gameplay types</Description>
 	</row>
 	<row>
@@ -2007,10 +2007,10 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>300000</MaxContSize>
+		<MaxContSize>100000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>10000</UnitWeight>
+		<UnitWeight>20000</UnitWeight>
 		<BackgndImage>art\images\Smelting_bg.png</BackgndImage>
 		<FaceImage>art\2D\Objects\furnace.png</FaceImage>
 		<Description></Description>
@@ -2165,7 +2165,7 @@
 		<UnitWeight>20000</UnitWeight>
 		<BackgndImage>art\images\Smelting_bg.png</BackgndImage>
 		<FaceImage>art\2D\Objects\kiln.png</FaceImage>
-		<Description>Kiln With Increased Container Size</Description>
+		<Description></Description>
 	</row>
 	<row>
 		<ID>118</ID>
@@ -2520,7 +2520,7 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>500000</MaxContSize>
+		<MaxContSize>100000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>200000</UnitWeight>
@@ -2558,7 +2558,7 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>1000000</MaxContSize>
+		<MaxContSize>400000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>50000</UnitWeight>
@@ -7213,7 +7213,7 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>200000</MaxContSize>
+		<MaxContSize>100000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>50000</UnitWeight>
@@ -11507,13 +11507,13 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>2500000</MaxContSize>
-		<Length>7</Length>
+		<MaxContSize>50000</MaxContSize>
+		<Length>3</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage>art\images\fireplace_bg.png</BackgndImage>
 		<FaceImage>art\2D\Objects\campfire.png</FaceImage>
-		<Description>Camp Fire With Increased Container Size, put dirt in here</Description>
+		<Description></Description>
 	</row>
 	<row>
 		<ID>683</ID>
@@ -18871,7 +18871,7 @@
 	<row>
 		<ID>1072</ID>
 		<ParentID>130</ParentID>
-		<Name>0de Wall (diagonal)</Name>
+		<Name>Palisade Wall (diagonal)</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -26464,8 +26464,8 @@
 		<Length>5</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>2000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description></Description>
 	</row>
 	<row>
@@ -26483,8 +26483,8 @@
 		<Length>0</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>20</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description></Description>
 	</row>
 	<row>
@@ -36177,7 +36177,7 @@
 		<FaceImage>art\2D\Items\gold_and_silver_amulet.png</FaceImage>
 		<Description>Elder's gift for helping the villagers.</Description>
 	</row>
-		<row>
+	<row>
 		<ID>3016</ID>
 		<ParentID>77</ParentID>
 		<Name>Log Cart</Name>
@@ -36191,28 +36191,9 @@
 		<MaxContSize>4000000</MaxContSize>
 		<Length>7</Length>
 		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
+		<UnitWeight>10000</UnitWeight>
 		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/LiFx/LogCart/2D/Recipies/logcart.png</FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>3018</ID>
-		<ParentID>77</ParentID>
-		<Name>Log Cart Harnessed</Name>
-		<IsContainer>1</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>4000000</MaxContSize>
-		<Length>7</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/LiFx/LogCart/2D/Recipies/logcart.png</FaceImage>
-		<Description></Description>
+		<FaceImage>yolauncher/modpack/mods/LiFx/LogCart/2D/Items/cart/logcart.png</FaceImage>
+		<Description>1</Description>
 	</row>
 </table>

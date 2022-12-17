@@ -36178,6 +36178,82 @@
 		<Description>Elder's gift for helping the villagers.</Description>
 	</row>
 	<row>
+		<ID>2489</ID>
+		<ParentID>75</ParentID>
+		<Name>Small Siege Ladder</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>200000</UnitWeight>
+		<BackgndImage>art\images\universal</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/LiFx/SiegeLadder/art/Models/2d/Objects/icon/SmallSiegeLadder.png</FaceImage>
+		<Description></Description>
+	</row>
+	<row>
+		<ID>2490</ID>
+		<ParentID>75</ParentID>
+		<Name>Siege Ladder</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>200000</UnitWeight>
+		<BackgndImage>art\images\universal</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/LiFx/SiegeLadder/art/Models/2d/Objects/icon/SmallSiegeLadder.png</FaceImage>
+		<Description></Description>
+	</row>
+	<row>
+		<ID>2491</ID>
+		<ParentID>75</ParentID>
+		<Name>Large Siege Ladder</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>200000</UnitWeight>
+		<BackgndImage>art\images\universal</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/LiFx/SiegeLadder/art/Models/2d/Objects/icon/LargeSiegeLadder.png</FaceImage>
+		<Description></Description>
+	</row>
+	<row>
+		<ID>2492</ID>
+		<ParentID>75</ParentID>
+		<Name>Big Siege Ladder</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>200000</UnitWeight>
+		<BackgndImage>art\images\universal</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/LiFx/SiegeLadder/art/Models/2d/Objects/icon/LargeSiegeLadder.png</FaceImage>
+		<Description></Description>
+	</row>
+	<row>
 		<ID>3016</ID>
 		<ParentID>77</ParentID>
 		<Name>Log Cart</Name>
@@ -36192,8 +36268,103 @@
 		<Length>7</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
+		<BackgndImage>1</BackgndImage>
+		<FaceImage>2</FaceImage>
+		<Description>3</Description>
+	</row>
+	<row>
+		<ID>3018</ID>
+		<ParentID>77</ParentID>
+		<Name>Harnessed Log Cart</Name>
+		<IsContainer>1</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>4000000</MaxContSize>
+		<Length>7</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage>1</BackgndImage>
+		<FaceImage>2</FaceImage>
+		<Description>3</Description>
+	</row>
+	<row>
+		<ID>3023</ID>
+		<ParentID>1902</ParentID>
+		<Name>Small Siege Ladder</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
 		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/LiFx/LogCart/2D/Items/cart/logcart.png</FaceImage>
-		<Description>1</Description>
+		<FaceImage></FaceImage>
+		<Description></Description>
+	</row>
+	<row>
+		<ID>3024</ID>
+		<ParentID>1902</ParentID>
+		<Name>Siege Ladder</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage>art\images\universal</BackgndImage>
+		<FaceImage></FaceImage>
+		<Description></Description>
+	</row>
+	<row>
+		<ID>3025</ID>
+		<ParentID>1902</ParentID>
+		<Name>Large Siege Ladder</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage>art\images\universal</BackgndImage>
+		<FaceImage></FaceImage>
+		<Description></Description>
+	</row>
+	<row>
+		<ID>3026</ID>
+		<ParentID>1902</ParentID>
+		<Name>Big Siege Ladder</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage>art\images\universal</BackgndImage>
+		<FaceImage></FaceImage>
+		<Description></Description>
 	</row>
 </table>

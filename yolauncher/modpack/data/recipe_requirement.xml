@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <table name="recipe_requirement">
 	<row>
@@ -30340,9 +30340,8 @@
 		<Quantity>2</Quantity>
 		<IsRegionItemRequired>0</IsRegionItemRequired>
 	</row>
-		<!--name = Log Wood Cart-->
 	<row>
-		<ID>4266</ID>
+		<ID>4261</ID>
 		<RecipeID>1093</RecipeID>
 		<MaterialObjectTypeID>235</MaterialObjectTypeID>
 		<Quality>0</Quality>
@@ -30351,25 +30350,25 @@
 		<IsRegionItemRequired>0</IsRegionItemRequired>
 	</row>
 	<row>
-		<ID>4267</ID>
+		<ID>4262</ID>
 		<RecipeID>1093</RecipeID>
 		<MaterialObjectTypeID>255</MaterialObjectTypeID>
 		<Quality>0</Quality>
-		<Influence>10</Influence>
+		<Influence>15</Influence>
 		<Quantity>4</Quantity>
 		<IsRegionItemRequired>0</IsRegionItemRequired>
 	</row>
 	<row>
-		<ID>4268</ID>
+		<ID>4263</ID>
 		<RecipeID>1093</RecipeID>
 		<MaterialObjectTypeID>1131</MaterialObjectTypeID>
 		<Quality>0</Quality>
-		<Influence>10</Influence>
+		<Influence>15</Influence>
 		<Quantity>20</Quantity>
 		<IsRegionItemRequired>0</IsRegionItemRequired>
 	</row>
 	<row>
-		<ID>4269</ID>
+		<ID>4264</ID>
 		<RecipeID>1093</RecipeID>
 		<MaterialObjectTypeID>262</MaterialObjectTypeID>
 		<Quality>0</Quality>
@@ -30378,4 +30377,3 @@
 		<IsRegionItemRequired>0</IsRegionItemRequired>
 	</row>
 </table>
-

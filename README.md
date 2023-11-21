@@ -1,6 +1,6 @@
 # LogCart
 
- A New Log Cart added credits to Kurai & Dorian
+ A New Log Cart added credits to Kurai Zbig and Dorian
 
 [Download here](https://github.com/LiF-x/LogCart/releases/latest)
 

@@ -18,8 +18,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Repair",
+        "keyName": "id",
+        "keyValue": "210",
         "composite": null
       },
       {
@@ -126,8 +126,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Harness",
+        "keyName": "id",
+        "keyValue": "288",
         "composite": null
       },
       {
@@ -180,8 +180,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Unharness",
+        "keyName": "id",
+        "keyValue": "289",
         "composite": null
       },
       {
@@ -234,8 +234,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Put in Cart",
+        "keyName": "id",
+        "keyValue": "300",
         "composite": null
       },
       {
@@ -288,8 +288,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Put in Cart",
+        "keyName": "id",
+        "keyValue": "300",
         "composite": null
       },
       {
@@ -342,8 +342,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Pull from Cart",
+        "keyName": "id",
+        "keyValue": "301",
         "composite": null
       },
       {
@@ -396,8 +396,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Pull from Cart",
+        "keyName": "id",
+        "keyValue": "301",
         "composite": null
       },
       {
@@ -450,8 +450,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Get On",
+        "keyName": "id",
+        "keyValue": "224",
         "composite": null
       },
       {
@@ -466,6 +466,60 @@
         "keyType": "attr",
         "keyName": "type",
         "keyValue": "attached_obj",
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "65",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "312",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
         "composite": null
       },
       {

@@ -50,7 +50,6 @@
       },
       {
         "target": "data/skill_types.xml",
-        "transform": "transforms/skill_types.xdt.xml",
         "mergeOps": "transforms/skill_types.merge.json"
       }
     ]

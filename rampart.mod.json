@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "LogCart",
+  "name": "Log Cart",
+  "version": "1.0.0",
+  "description": "A new Log Cart transport for LiF:YO. Credits to Kurai Zbig and Dorian.",
+  "authors": [
+    "Dorian Fendrel"
+  ],
+  "source": {
+    "repo": "LiF-x/LogCart",
+    "commit": "de6d6cf7ccce5057949a6c74e53aa47f585b3966"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": [
+    "LiF-x/ServerAutoloader"
+  ],
+  "loadOrderHint": 300,
+  "objectTypeIds": {
+    "added": [
+      "3016"
+    ],
+    "modified": [
+      "1232",
+      "1671",
+      "1733",
+      "2003"
+    ]
+  },
+  "files": {
+    "overlay": [
+      {
+        "src": "mods/LiFx/LogCart/",
+        "dest": "mods/LiFx/LogCart/"
+      },
+      {
+        "src": "yolauncher/modpack/mods/LiFx/LogCart/",
+        "dest": "yolauncher/modpack/mods/LiFx/LogCart/"
+      }
+    ],
+    "dataPatches": [
+      {
+        "target": "data/cm_objects.xml",
+        "transform": "transforms/cm_objects.xdt.xml"
+      },
+      {
+        "target": "data/skill_types.xml",
+        "transform": "transforms/skill_types.xdt.xml",
+        "mergeOps": "transforms/skill_types.merge.json"
+      }
+    ]
+  }
+}
